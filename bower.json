@@ -6,7 +6,9 @@
     "modernizr": "~2.8.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.1",
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "gsap": "greensock#^1.20.4",
+    "scrollMonitor": "^1.2.4"
   },
   "devDependencies": {
     "chai": "^4.1.2",
