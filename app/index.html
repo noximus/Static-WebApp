@@ -28,7 +28,7 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <div class="container-fluid">
+    <div id="app" class="container-fluid">
       <!-- Hero Section -->
       <section class="row align-items-center">
         <!-- create container here that can move hide all items > then show the thankyou form -->
@@ -44,7 +44,7 @@
         <div class="col">
           <form class="form-signin">
             <div class="text-center mb-4">
-              <h1 class="moveMe h3 mb-3 font-weight-normal">Short compelling headline goes here</h1>
+              <h1 class="moveMe h3 mb-3 font-weight-normal">{{ message }}</h1>
             </div>
 
             <div class="row">
@@ -176,7 +176,6 @@
         <div class="col text-center"><img src="http://via.placeholder.com/900x120" class="img-fluid" alt="FPO Image"></div>
       </div>
     </div>
-    
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -192,6 +191,7 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/popper.js/dist/umd/popper.js"></script>
+    <script src="/bower_components/vue/dist/vue.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
